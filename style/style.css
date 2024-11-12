@@ -1,0 +1,98 @@
+body{
+    background-image: url(../horoscope_bkgr.jpg);
+}
+table{
+margin: 0 auto;
+margin-top: 30px;
+}
+table, tr, td{
+    border: 2px solid rgb(252, 235, 205);
+    border-collapse: collapse;   
+    vertical-align: middle; 
+}
+@font-face {
+    font-family: Text;
+    src: url(../font/RubikDoodleShadow-Regular.ttf);
+}
+table .rad1{
+    text-align: center;
+    color: blue;
+    height: 50px;
+    font-size: 60px;
+    font-family: Text;
+}
+table .rad2 td:nth-child(1) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad2 td:nth-child(3) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad3 td:nth-child(1) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad3 td:nth-child(2) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad4 td:nth-child(1) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad4 td:nth-child(2) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad5 td:nth-child(1) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad5 td:nth-child(2) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad6 td:nth-child(1) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad6 td:nth-child(2) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad7 td:nth-child(1) img{
+    text-align: center;
+    width: 100px;
+}
+table .rad7 td:nth-child(3) img{
+    text-align: center;
+    width: 100px;
+}
+@font-face {
+    font-family: Text2;
+    src: url(../font/AmaticSC-Regular.ttf);
+}
+table .rad7 td:nth-child(2) button{
+    width: 800px;
+    height: 75px;
+    background-color: transparent;
+    text-align: center;
+    color: blue;
+    font-family: Text2;
+    font-size: 40px;
+    cursor: pointer;
+    border: 0px;
+}
+table .rad2 td:nth-child(2) img{
+    width: 360px;
+    height: 350px;
+    float: left;
+
+}
+table .rad2 td:nth-child(2) p{
+    width: 800px;
+    color: rgb(252, 235, 205);
+    font-size: 20px;
+}
+
